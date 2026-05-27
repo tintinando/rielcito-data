@@ -1,0 +1,21 @@
+Los archivos están en CSV con codificación UTF-8 y fin de línea LF
+
+La tabla RAMALES contiene los id y nombre común de los ramales
+La tabla ESTACIONES contiene los id de la estación y otros datos
+La tabla ESTACION_RAMAL contiene el id de la estación con el id del ramal al que pertenece. De ese modo cuando una estación tiene más de un ramal se repite el valor en un nuevo registro.
+
+Las tablas de horarios tienen en los encabezados el campo SERVICIOS seguido de los id de las estaciones
+Luego cada registro contiene el Nº de tren y los horarios de llegada a cada estación en formato HH:MM horario local
+
+El nombre de archivo de las tablas de horarios sigue la siguiente nomenclatura:
+[idRamal]_[direccion]_[dia_semana]_[version]
+
+idRamal según tabla RAMALES
+dirección [ASC|DSC] según sea ascendente o descendente. Ascendente es cuando comienza en la cabecera, también en la tabla RAMALES
+dia_semana [LAV|SAB|DYF|DDMMYYYY] según sea de Lunes a Viernes, Sábado, Domingos y feriados, o una fecha en caso de cronograma especial por evento o por obras
+
+El cronograma especial necesita un primer registro especial con información extra, se identifica con la palabra reservada METADATA
+los valores posibles son:
+MENSAJE:Aqui va el mensaje
+
+por ejemplo METADATA,MENSAJE:Los trenes tienen un horario especial por obras

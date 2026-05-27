@@ -1,0 +1,23 @@
+idRamal,idLinea,idCabecera,nombre
+RET-VROS,BN,BN-RETI,Retiro - Villa Rosa
+RET-TIGR,LM,LM-RETI,Retiro - Tigre
+RET-JLSU,LM,LM-RETI,Retiro - J.L.Suárez
+RET-BMIT,LM,LM-RETI,Retiro - B.Mitre
+VBA-ZARA,LM,LM-VBAL,V.Ballester - Zárate
+VIC-CAPI,LM,LM-VICT,Victoria - Capilla del Señor
+RET-CABR,SM,SM-RETI,Retiro - Pilar/Cabred
+CHA-LEMO,LU,LU-CHAC,Chacarita - Gral.Lemos
+CON-KORN,LR,LR-CONS,Constitución - Glew/A.Korn
+CON-EZEI,LR,LR-CONS,Constitución - Ezeiza
+CON-BOTE,LR,LR-CONS,Constitución - Bosques(T)
+CON-BOQU,LR,LR-CONS,Constitución - Bosques(Q)
+CON-LPLA,LR,LR-CONS,Constitución - La Plata
+TEM-HAED,LR,LR-TEMP,Temperley - Haedo
+EZE-CANU,LR,LR-EZEI,Ezeiza - Cañuelas
+ONCE-MOR,LS,LS-ONCE,Once - Moreno
+MORE-MER,LS,LS-MORE,Moreno - Mercedes
+MER-LOBO,LS,LS-MERL,Merlo - Lobos
+SAE-CATA,BS,BS-SAEN,Saenz - González Catán
+SAE-MCGB,BS,BS-SAEN,Saenz - M. Crucero Gral.Belgrano
+CATA-VIL,BS,BS-CATA,González Catán - Villars
+
