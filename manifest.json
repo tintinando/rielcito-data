@@ -1,6 +1,6 @@
 {
   "_comment": "Timestamps en UTC ISO 8601",
-  "generatedAt": "2026-05-29T04:20:37.640766+00:00",
+  "generatedAt": "2026-05-29T13:07:13.148969+00:00",
   "files": [
     {
       "file": "ONCE-MOR_ASC_LAV.csv",
@@ -288,7 +288,7 @@
     },
     {
       "file": "ESTACIONES.csv",
-      "sha256": "4091a3292532f910e72f3c646519a304aadd589759e36415f210bd290baf0817"
+      "sha256": "de8a117c21e5ddc3615336cc9e271a1a56145563425f324a2cb5e8a6bb2e4668"
     },
     {
       "file": "SAE_MCGB_DSC_DYF.csv",
