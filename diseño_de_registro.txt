@@ -8,7 +8,7 @@ Las tablas de horarios tienen en los encabezados el campo SERVICIOS seguido de l
 Luego cada registro contiene el Nº de tren y los horarios de llegada a cada estación en formato HH:MM horario local
 
 El nombre de archivo de las tablas de horarios sigue la siguiente nomenclatura:
-[idRamal]_[direccion]_[dia_semana]_[version]
+[idRamal]_[direccion]_[dia_semana]
 
 idRamal según tabla RAMALES
 dirección [ASC|DSC] según sea ascendente o descendente. Ascendente es cuando comienza en la cabecera, también en la tabla RAMALES

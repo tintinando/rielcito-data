@@ -1,0 +1,322 @@
+{
+  "_comment": "Timestamps en UTC ISO 8601",
+  "generatedAt": "2026-05-29T04:10:06.591831+00:00",
+  "files": [
+    {
+      "file": "ESTACION_RAMAL.csv",
+      "sha256": "83161d34b683e21e17815eccfe13cff7802a2bebaa11145e25761ce4bb7df49a"
+    },
+    {
+      "file": "ESTACIONES.csv",
+      "sha256": "4091a3292532f910e72f3c646519a304aadd589759e36415f210bd290baf0817"
+    },
+    {
+      "file": "RAMALES.csv",
+      "sha256": "5c3498a981dad9863f587a89859aa9e049d5a0c7cd1a71df2164c666fe31f863"
+    },
+    {
+      "file": "CATA-VIL_ASC_DYF.csv",
+      "sha256": "a512f7e427744fb853b14909e2f7b2ade293e59b416ca085c98217583ba32edd"
+    },
+    {
+      "file": "CATA-VIL_ASC_LAV.csv",
+      "sha256": "396f93a91ff92e0b3780b28c12bfa2b2de734b78962c41a21b17d5f0189d3da1"
+    },
+    {
+      "file": "CATA-VIL_ASC_SAB.csv",
+      "sha256": "ae6158291e807498e6f2e9cfb8b253f78377bff1a177c64abcc1516a50674e7c"
+    },
+    {
+      "file": "CATA-VIL_DSC_DYF.csv",
+      "sha256": "c87a0b4d7b156d0af5e57ac1b305f1d1f570093f910889084c4c001676c87190"
+    },
+    {
+      "file": "CATA-VIL_DSC_LAV.csv",
+      "sha256": "aad4359facc98e1544609b7155d325344ef19bd234f50c3ad7ef13f7424d751e"
+    },
+    {
+      "file": "CATA-VIL_DSC_SAB.csv",
+      "sha256": "89e600440f607bd3841ce43fcfd5fe16c44bdeb2e5f84d1fe95d564df4b5ea1e"
+    },
+    {
+      "file": "MER-LOBO_ASC_DYF.csv",
+      "sha256": "01ff88896f37d16fc4488edfdeced927629e07a4f777f60f9a08f6f671677591"
+    },
+    {
+      "file": "MER-LOBO_ASC_LAV.csv",
+      "sha256": "ac40d8f207b242750893b310e0424f63521ce2b885f833bfa06aaeef6dbec0ff"
+    },
+    {
+      "file": "MER-LOBO_ASC_SAB.csv",
+      "sha256": "ac40d8f207b242750893b310e0424f63521ce2b885f833bfa06aaeef6dbec0ff"
+    },
+    {
+      "file": "MER-LOBO_DSC_DYF.csv",
+      "sha256": "50eb1654b639d64c31baebdb1fbbcf821db8e379edcb7ad54baaa4c6b221d45b"
+    },
+    {
+      "file": "MER-LOBO_DSC_LAV.csv",
+      "sha256": "519c6f661f8cf959aaf856c1d7fdcdeb8aaf3b214df1fde7e71e768bdaa2cffe"
+    },
+    {
+      "file": "MER-LOBO_DSC_SAB.csv",
+      "sha256": "519c6f661f8cf959aaf856c1d7fdcdeb8aaf3b214df1fde7e71e768bdaa2cffe"
+    },
+    {
+      "file": "MORE-MER_ASC_DYF.csv",
+      "sha256": "a2d127457d492da087666f21ce9518cff461ea499815c00431e91d7f11a935e6"
+    },
+    {
+      "file": "MORE-MER_ASC_LAV.csv",
+      "sha256": "599711b726a8455f2aae6c1f0d39b50b5deb0fb4058fba8883d7a25c9b3bf375"
+    },
+    {
+      "file": "MORE-MER_ASC_SAB.csv",
+      "sha256": "599711b726a8455f2aae6c1f0d39b50b5deb0fb4058fba8883d7a25c9b3bf375"
+    },
+    {
+      "file": "MORE-MER_DSC_DYF.csv",
+      "sha256": "2634ac480c337a0d4426d09f7087d0b93783c94aea9e9e7e6f445a199f21adbe"
+    },
+    {
+      "file": "MORE-MER_DSC_LAV.csv",
+      "sha256": "c7ebe8b645d7e501eb29142f19071605e72a10f41aa343df2d107a0697ab602c"
+    },
+    {
+      "file": "MORE-MER_DSC_SAB.csv",
+      "sha256": "c7ebe8b645d7e501eb29142f19071605e72a10f41aa343df2d107a0697ab602c"
+    },
+    {
+      "file": "ONCE-MOR_ASC_DYF.csv",
+      "sha256": "43ff7013a268ca94332a794163b162dfac9ad306140fb2f8a2d9aced134936e5"
+    },
+    {
+      "file": "ONCE-MOR_ASC_LAV.csv",
+      "sha256": "bbb560ce21fba69739b7a9758218dad412fa9ab5b44ee20c52cba226bef011e9"
+    },
+    {
+      "file": "ONCE-MOR_ASC_SAB.csv",
+      "sha256": "f871b84d14d29933c318d02d422cb0235eb2d14135c55de2e0503a5f0c11e4c6"
+    },
+    {
+      "file": "ONCE-MOR_DSC_DYF.csv",
+      "sha256": "2119884f2f9026cd2f5b2c92f6bb9fb5babca4061cc76ab1128014f722fe9be6"
+    },
+    {
+      "file": "ONCE-MOR_DSC_LAV.csv",
+      "sha256": "f0df5aa67d463eb81256cb3665ff10454ff9987c7930765e01d28fdf8c294ecc"
+    },
+    {
+      "file": "ONCE-MOR_DSC_SAB.csv",
+      "sha256": "7499ee620629cb1739f809beeaae3f1e2fd411b1623f3e6630160d3ac7ebb1d1"
+    },
+    {
+      "file": "RET_BMIT_DSC_DYF.csv",
+      "sha256": "da2d573e1d8382347d5306302ca7a87b95b60e9d327ab11d8ad412a2ecdcdaa6"
+    },
+    {
+      "file": "RET_BMIT_DSC_LAV.csv",
+      "sha256": "8fa27f2095aeba966be3f9fc05fd42297f41bdf0507ea554fe3d556cec62528d"
+    },
+    {
+      "file": "RET_BMIT_DSC_SAB.csv",
+      "sha256": "c328c1d9d23fc6e0abbbdb167e85910ef0bcd6c8efb10b138378ebfb86e80040"
+    },
+    {
+      "file": "RET-BMIT_ASC_DYF.csv",
+      "sha256": "029612995769596d8c348a6c21e6822944c44150b8c9ca45f246ac6605f9671e"
+    },
+    {
+      "file": "RET-BMIT_ASC_LAV.csv",
+      "sha256": "34e57d5fd4ce573d9d5df8ce88f13a7de8a546a05ed74d5f9d3cc8eef63f4d36"
+    },
+    {
+      "file": "RET-BMIT_ASC_SAB.csv",
+      "sha256": "f97ae01f26f39da42bf0f2c7edae8ae9c20924730223315ff6eb7a9b1149ebdd"
+    },
+    {
+      "file": "RET-CABR_ASC_DYF.csv",
+      "sha256": "056c586f9d340c39ab623ebd7bd2ab081a11155d43c08dabd69fb4c74ea818b7"
+    },
+    {
+      "file": "RET-CABR_ASC_LAV.csv",
+      "sha256": "c709596830b6adfde991d8c40766927757876e28dcb9341054c75b6ef98cecf6"
+    },
+    {
+      "file": "RET-CABR_ASC_SAB.csv",
+      "sha256": "c709596830b6adfde991d8c40766927757876e28dcb9341054c75b6ef98cecf6"
+    },
+    {
+      "file": "RET-CABR_DSC_DYF.csv",
+      "sha256": "203b1e58ef5e05ca2f96893473f63516ef1333ba4fc7e55bd683335f9fddfe74"
+    },
+    {
+      "file": "RET-CABR_DSC_LAV.csv",
+      "sha256": "ad57f5aa16e5dd2f7e5885d165c647f5c599f8aa85c96b97ef98bd4c35c46800"
+    },
+    {
+      "file": "RET-CABR_DSC_SAB.csv",
+      "sha256": "ad57f5aa16e5dd2f7e5885d165c647f5c599f8aa85c96b97ef98bd4c35c46800"
+    },
+    {
+      "file": "RET-JLSU_ASC_DYF.csv",
+      "sha256": "2f0ecdd5f1425ad5d5f6176637b6bef3483441a9e12b22d638532af32066b732"
+    },
+    {
+      "file": "RET-JLSU_ASC_LAV.csv",
+      "sha256": "0460da5425cead2267d33cf1eee3841591a7c407ddd6b3807601b3fd3196c1f1"
+    },
+    {
+      "file": "RET-JLSU_ASC_SAB.csv",
+      "sha256": "63910175da1519fd3d17b34a75c50dd8528cb77f2497efdfcd6891067aee8921"
+    },
+    {
+      "file": "RET-JLSU_DSC_DYF.csv",
+      "sha256": "b12f39a5218af801dddf71c872565558cee917a51208a65dbefe738df6871561"
+    },
+    {
+      "file": "RET-JLSU_DSC_LAV.csv",
+      "sha256": "04aded577d8827e56ddc8d63ac437c62c808092a5481efa3956d294209d51e61"
+    },
+    {
+      "file": "RET-JLSU_DSC_SAB.csv",
+      "sha256": "616fb0ccaef55ca451aad68c8cd21b07fd1111e4c889a0c0365a50055fe4a96d"
+    },
+    {
+      "file": "RET-TIGR_ASC_DYF.csv",
+      "sha256": "08b790746cd73100e190ab33a4b411993817c6477ae949f223fffbc48270ef3f"
+    },
+    {
+      "file": "RET-TIGR_ASC_LAV.csv",
+      "sha256": "2e25490efab988ab2abf7cf35a3b9960f8511e3ce94436221d6b3e3a6fd0f6cb"
+    },
+    {
+      "file": "RET-TIGR_ASC_SAB.csv",
+      "sha256": "08b790746cd73100e190ab33a4b411993817c6477ae949f223fffbc48270ef3f"
+    },
+    {
+      "file": "RET-TIGR_DSC_DYF.csv",
+      "sha256": "d6ed5308ea3ded4fad29dfd6aaadc2b772b63ad486d55dbca9fd3b58d5b50eb9"
+    },
+    {
+      "file": "RET-TIGR_DSC_LAV.csv",
+      "sha256": "ee305f6e84ace98cc48b1a11abb822d252d013d26bae431de0ae1a9798dc8e56"
+    },
+    {
+      "file": "RET-TIGR_DSC_SAB.csv",
+      "sha256": "d6ed5308ea3ded4fad29dfd6aaadc2b772b63ad486d55dbca9fd3b58d5b50eb9"
+    },
+    {
+      "file": "RET-VROS_ASC_DYF.csv",
+      "sha256": "8f6055345c802cf909fe9683ef3f0d384d68b168115f89fe2660686a57cc187e"
+    },
+    {
+      "file": "RET-VROS_ASC_LAV.csv",
+      "sha256": "4044dcc9dc7ecb1e10db8ae1b456d4a8cb574c9bb2f13e371df4a65a797cb02b"
+    },
+    {
+      "file": "RET-VROS_ASC_SAB.csv",
+      "sha256": "3bc2a87d034c5854254cb2625287cbbfceaa0aecedf33da677b5bd5ab2649aee"
+    },
+    {
+      "file": "RET-VROS_DSC_DYF.csv",
+      "sha256": "2a812a018c8310cc999faf4093cf2c022eed30135189b8183e0e980f32f2b750"
+    },
+    {
+      "file": "RET-VROS_DSC_LAV.csv",
+      "sha256": "40789943f7e297bd747e270983dcd6894f6bb03a04d9cab3f54a39e394b41458"
+    },
+    {
+      "file": "RET-VROS_DSC_SAB.csv",
+      "sha256": "3f9a94d4c357d958845dead889e0d3454079a6de65e637584ca408732b56cafa"
+    },
+    {
+      "file": "SAE_CATA_DSC_DYF.csv",
+      "sha256": "5a507625e38718300f242e04009ee5be558f203a6865a0beab3097f564639d8a"
+    },
+    {
+      "file": "SAE_CATA_DSC_LAV.csv",
+      "sha256": "03be415d2d867ba8dc9c590d6d3bca06262797d7b70d8affc814636850b31ea2"
+    },
+    {
+      "file": "SAE_CATA_DSC_SAB.csv",
+      "sha256": "c9890e1b7527f870849670d4aa0708b39aae9a66c991605fbee6c93781fe6f5c"
+    },
+    {
+      "file": "SAE_MCGB_DSC_DYF.csv",
+      "sha256": "726f4ceaa04a8f5bd00b169c78aa180708a1a8c09177d87c0af006748304ef9b"
+    },
+    {
+      "file": "SAE_MCGB_DSC_LAV.csv",
+      "sha256": "154b0cf3a085611a5f88d500f3281d95ab65b9c3f78179b9ecc35aaaa72203b1"
+    },
+    {
+      "file": "SAE_MCGB_DSC_SAB.csv",
+      "sha256": "57893ebac829ff51e73cfef5eeef72d8b47363482917c371c8ac0e5a7eb2bc29"
+    },
+    {
+      "file": "SAE-CATA_ASC_DYF.csv",
+      "sha256": "44656ac4a9000215205d35c4a87bf4e6afaefcb2fa7403613fda473d1cc549ce"
+    },
+    {
+      "file": "SAE-CATA_ASC_LAV.csv",
+      "sha256": "8455b9d8e18c8cf182dc60066baa8417d4d7accfcb9f26b60586bf0efba90b30"
+    },
+    {
+      "file": "SAE-CATA_ASC_SAB.csv",
+      "sha256": "7e2807d9165dddb3dbdca297f0d8a7f87475c8aed6f90097d42a3a6859b499b1"
+    },
+    {
+      "file": "SAE-MCGB_ASC_DYF.csv",
+      "sha256": "8b05eb80a7feb1042c28d8fde4d3851eb4aab3b93979df85931aef0b1082a1e2"
+    },
+    {
+      "file": "SAE-MCGB_ASC_LAV.csv",
+      "sha256": "21a7225b1ebf5ba55abc43e95659052d26f5a0550563ed3e651658219fff0b09"
+    },
+    {
+      "file": "SAE-MCGB_ASC_SAB.csv",
+      "sha256": "52446ef8955ad9cb3ebbb19755aaf0bccd997e96acc9229e8cc7ee7d5bd2db8d"
+    },
+    {
+      "file": "VBA-ZARA_ASC_DOM.csv",
+      "sha256": "5ba90f080293d5df862c904bd5effbe3015876f464ca334a099ab20299369294"
+    },
+    {
+      "file": "VBA-ZARA_ASC_LAV.csv",
+      "sha256": "fd72ddb3893f3f26dd222a8f6b87752c5618a638de94ed974024f0f227677c78"
+    },
+    {
+      "file": "VBA-ZARA_ASC_SAB.csv",
+      "sha256": "4a09c93c30fae878017f95d8c7fb5cc8d65cbe2a02614119a48ffafa71845bfc"
+    },
+    {
+      "file": "VBA-ZARA_DSC_DOM.csv",
+      "sha256": "c224a8077f05c912bfac0e03019736ad77d265d0b8663fbfc285fb9bbb2488bd"
+    },
+    {
+      "file": "VBA-ZARA_DSC_LAV.csv",
+      "sha256": "8d5a4288c13f08438a52a7834f16d7b0bda6b3481d3b74b0c5951e45dcb3dab1"
+    },
+    {
+      "file": "VBA-ZARA_DSC_SAB.csv",
+      "sha256": "52d7b10b76975ac4054c035b6b1737fd83be2b025c53bbe064c3919f6a64c1dd"
+    },
+    {
+      "file": "VIC-CAPI_ASC_DYF.csv",
+      "sha256": "1211971d8699bf4ee8da943846cb8a5407a9ff78dd5ab9e7706e2e72ae52b61a"
+    },
+    {
+      "file": "VIC-CAPI_ASC_LAV.csv",
+      "sha256": "1211971d8699bf4ee8da943846cb8a5407a9ff78dd5ab9e7706e2e72ae52b61a"
+    },
+    {
+      "file": "VIC-CAPI_ASC_SAB.csv",
+      "sha256": "1211971d8699bf4ee8da943846cb8a5407a9ff78dd5ab9e7706e2e72ae52b61a"
+    },
+    {
+      "file": "VIC-CAPI_DSC_LAV.csv",
+      "sha256": "9186a8913038213dc4596e79c213b577224cf708204a94484bc978e8a3ec5b4b"
+    }
+  ]
+}
