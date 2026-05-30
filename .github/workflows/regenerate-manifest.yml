@@ -18,6 +18,14 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v47
+        with:
+          files: data/**
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -28,15 +36,21 @@ jobs:
         run: rm -f manifest.json
 
       - name: Generate manifest
+        env:
+          # Variable de entorno con la lista de archivos modificados
+          CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: python create-manifest.py
 
       - name: Commit updated manifest
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add manifest.json
 
-          git diff --cached --quiet || git commit -m "Update manifest"
-
-          git push
+          if[ -n "$(git status --porcelain manifest.json)" ]; then
+            git commit -m "Update manifest [skip ci]"
+            git push
+          else
+            echo "No changes detected in manifest.json"
+          fi
