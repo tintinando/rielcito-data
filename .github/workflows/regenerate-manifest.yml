@@ -16,6 +16,12 @@ jobs:
       contents: write
 
     steps:
+      - name: Debug
+        run: |
+          git rev-parse HEAD
+          ls -l
+          sed -n '1,200p' create-manifest.py
+
       - name: Checkout repo
         uses: actions/checkout@v6
         with:
@@ -48,7 +54,7 @@ jobs:
 
           git add manifest.json
 
-          if[ -n "$(git status --porcelain manifest.json)" ]; then
+          if [ -n "$(git status --porcelain manifest.json)" ]; then
             git commit -m "Update manifest [skip ci]"
             git push
           else
