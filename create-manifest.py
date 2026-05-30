@@ -6,15 +6,17 @@ from pathlib import Path
 
 DATA_DIR = Path("./data")
 
-changed_files_env = os.environ.get("CHANGED_FILES","")
+changed_files_env = os.environ.get("CHANGED_FILES", "")
 
-changed_filenames = {
-    Path(f).name for f in changed_files_env.split() if f
-    } if changed_files_env else set()
+changed_filenames = (
+    {Path(f).name for f in changed_files_env.split() if f}
+    if changed_files_env
+    else set()
+)
 
 manifest = {
     "_comment": "Timestamps en UTC ISO 8601",
-    "_comment2" "No editar archivo, se genera automáticamente en cada PR",
+    "_comment2": "No editar archivo, se genera automáticamente en cada PR",
     "generatedAt": datetime.now(timezone.utc).isoformat(),
     "files": [],
 }
@@ -22,10 +24,7 @@ manifest = {
 for file in DATA_DIR.glob("*.csv"):
     sha256 = hashlib.sha256(file.read_bytes()).hexdigest()
 
-    file_entry = {
-        "file": file.name,
-        "sha256": sha256
-    }
+    file_entry = {"file": file.name, "sha256": sha256}
 
     if file.name in changed_filenames:
         file_entry["updatedAt"] = datetime.now(timezone.utc).isoformat()
