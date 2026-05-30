@@ -1,6 +1,7 @@
 {
   "_comment": "Timestamps en UTC ISO 8601",
-  "generatedAt": "2026-05-30T15:04:56.186342+00:00",
+  "_comment2": "No editar archivo, se genera automáticamente en cada PR",
+  "generatedAt": "2026-05-30T19:15:41.655744+00:00",
   "files": [
     {
       "file": "ONCE-MOR_ASC_LAV.csv",
@@ -44,7 +45,7 @@
     },
     {
       "file": "1-ESTACION_RAMAL.csv",
-      "sha256": "04ab7c61595ab2806fd4a25a4815e4caab44b6f60ee2419241eb8afba6dbad42"
+      "sha256": "a7ecaf92012170a67ed50b39eb306c00682953db9b2331911fb522e0925b1c94"
     },
     {
       "file": "MER-LOBO_DSC_SAB.csv",
@@ -204,7 +205,7 @@
     },
     {
       "file": "1-RAMALES.csv",
-      "sha256": "5c3498a981dad9863f587a89859aa9e049d5a0c7cd1a71df2164c666fe31f863"
+      "sha256": "73f795a6795a0530c3daaa7c3e2174787051859f3c685aefe7901a488fbef20f"
     },
     {
       "file": "VIC-CAPI_ASC_DYF.csv",
@@ -276,7 +277,7 @@
     },
     {
       "file": "1-ESTACIONES.csv",
-      "sha256": "3d1783f104073312d6b1c8fb3e5623dd2298266b32838e007c2384dba8071790"
+      "sha256": "97e463273355d422f9b9f0769c436d90a31f6ccf20a20623dc530cac4c5d99da"
     },
     {
       "file": "SAE-MCGB_ASC_LAV.csv",
