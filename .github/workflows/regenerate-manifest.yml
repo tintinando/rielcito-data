@@ -7,6 +7,8 @@ on:
     paths:
       - 'data/**'
 
+  workflow_dispatch:
+
 jobs:
   regenerate:
     if: github.actor != 'github-actions[bot]'
