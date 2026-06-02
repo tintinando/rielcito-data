@@ -6,41 +6,34 @@ on:
       - main
     paths:
       - 'data/**'
-
   workflow_dispatch:
 
 jobs:
   regenerate:
+    # Evitar que el bot se dispare a sí mismo
     if: github.actor != 'github-actions[bot]'
-    runs-on: ubuntu-latest
 
+    runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v6
         with:
           fetch-depth: 0
-
-      - name: Get changed files
-        id: changed-files
-        uses: tj-actions/changed-files@v47
-        with:
-          files: data/**
 
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
+          cache: 'pip'
 
-      - name: Remove old manifest
-        run: rm -f manifest.json
+      - name: Install dependencies
+        run: |
+          pip Install --upgrade pip
 
       - name: Generate manifest
-        env:
-          # Variable de entorno con la lista de archivos modificados
-          CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: python create-manifest.py
 
       - name: Commit updated manifest
@@ -50,9 +43,9 @@ jobs:
 
           git add manifest.json
 
-          if [ -n "$(git status --porcelain manifest.json)" ]; then
+          if git diff --staged --quiet; then
+            echo "No changes in manifest.json"
+          else
             git commit -m "Update manifest [skip ci]"
             git push
-          else
-            echo "No changes detected in manifest.json"
           fi
