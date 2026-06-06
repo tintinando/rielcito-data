@@ -163,10 +163,16 @@ def save_manifest(manifest: ManifestData) -> None:
             json.dump(manifest, f, indent=4, ensure_ascii=False)
 
         temp_file.replace(MANIFEST_FILE)
+        save_version()
     except Exception as e:
         if temp_file.exists():
             temp_file.unlink()
         raise e
+
+
+def save_version() -> None:
+    with open("version.txt", "w", encoding="utf-8") as f:
+        f.write(now())
 
 
 # ================= EJECUCION =================
